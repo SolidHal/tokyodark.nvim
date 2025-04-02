@@ -14,10 +14,10 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
     {
-        "tiagovla/tokyodark.nvim",
+        "tiagovla/hickey.nvim",
         config = function()
-            require("tokyodark").setup()
-            require("tokyodark").colorscheme()
+            require("hickey").setup()
+            require("hickey").colorscheme()
         end,
     },
     {

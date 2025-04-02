@@ -1,7 +1,7 @@
-local p = require("tokyodark.palette")
-local utils = require("tokyodark.utils")
-local config = require("tokyodark.config")
-local terminal = require("tokyodark.terminal")
+local p = require("hickey.palette")
+local utils = require("hickey.utils")
+local config = require("hickey.config")
+local terminal = require("hickey.terminal")
 
 local M = {}
 

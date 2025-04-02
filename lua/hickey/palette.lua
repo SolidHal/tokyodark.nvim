@@ -1,5 +1,5 @@
-local config = require("tokyodark.config")
-local utils = require("tokyodark.utils")
+local config = require("hickey.config")
+local utils = require("hickey.utils")
 
 local palette = {
     black = "#06080A",

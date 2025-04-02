@@ -1,7 +1,7 @@
 -- Copyright (c) 2021-2022 tiagovla
 -- License: MIT
 --
-local p = require("tokyodark.palette")
+local p = require("hickey.palette")
 local colors = {
     bg = p.bg1,
     fg = p.fg,

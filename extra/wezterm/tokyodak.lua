@@ -1,4 +1,4 @@
--- tokyodark
+-- hickey
 return {
     foreground = "#a0a8cd",
     background = "#11121d",

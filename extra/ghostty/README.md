@@ -2,11 +2,11 @@
 
 > "[Ghostty](https://ghostty.org/) is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration." - Ghostty docs
 
-👻 To use tokyodark in Ghostty, you need to update your Ghostty config file.
+👻 To use hickey in Ghostty, you need to update your Ghostty config file.
 
 ## Install guide
 
-Simply copy the `tokyodark` file into your `themes/` directory.
+Simply copy the `hickey` file into your `themes/` directory.
 If you don't have a `themes/` directory, create one next to your `config` file.
 
 Your Ghostty config directory structure should look something like this:
@@ -15,13 +15,13 @@ Your Ghostty config directory structure should look something like this:
 - ghostty/
   - config
   - themes/
-    - tokyodark
+    - hickey
 ```
 
-Then, in your `config` file, set `theme` to `tokyodark`:
+Then, in your `config` file, set `theme` to `hickey`:
 
 ```ini
-theme = "tokyodark"
+theme = "hickey"
 ```
 
 Reload your config and you should see the theme applied!
@@ -31,7 +31,7 @@ Reload your config and you should see the theme applied!
 If you don't want to create a `themes/` directory, you can also use an absolute path:
 
 ```ini
-theme = "../code/tokyodark.nvim/extra/ghostty/tokyodark" # or wherever your local tokyodark file is
+theme = "../code/hickey.nvim/extra/ghostty/hickey" # or wherever your local hickey file is
 ```
 
 ## Need help?
